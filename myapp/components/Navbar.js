@@ -3,13 +3,12 @@ import Link from 'next/link'
 
 const Navbar = () => {
   return (
-    <header className='navbar bg-base-100'>
+    <header className='navbar bg-base-400 pt-3 pb-10'>
   <div className="flex-1">
     <a className="btn bg-secondary normal-case text-lg">DONUT SHOP</a>
   </div>
   <div className="flex-none">
     <ul className="menu menu-horizontal px-1">
-    <li><Link href={'/about'} className='btn btn-sm mr-4'>About</Link></li>
     <li><Link href={'/archive'} className='btn btn-sm mr-4'>Archive</Link></li>
 
       <li><a className='btn btn-sm mr-4'>About</a></li>
