@@ -1,4 +1,5 @@
 import React from 'react'
+import FeaturedCard from './FeaturedCard'
 
 const Featured = () => {
   return (
@@ -14,22 +15,24 @@ const Featured = () => {
         </div>
         <div className='flex justify-between gap-3 my-3 carousel carousel-end rounded-box' >
                 <div className='basis-1/2 bg-wh-500 h-96 carousel-item'>
-                {/* <img
-                className='w-full obect-cover'
-                src="https://images.pexels.com/photos/17055104/pexels-photo-17055104/free-photo-of-portrait-of-a-tattooed-brunette-wearing-a-green-dress.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" alt="Drink" /> */}
+                <FeaturedCard />
 
                 </div>
                 <div className='basis-1/2 bg-wh-500 h-96 carousel-item'>
-     
+                <FeaturedCard />
+
             </div>
             <div className='basis-1/2 bg-wh-500 h-96 carousel-item'>
-     
+            <FeaturedCard />
+
      </div>
      <div className='basis-1/2 bg-wh-500 h-96 carousel-item'>
-     
+     <FeaturedCard />
+
      </div>
      <div className='basis-1/2 bg-wh-500 h-96 carousel-item'>
-     
+     <FeaturedCard />
+
      </div>
             </div>
     </section> 
