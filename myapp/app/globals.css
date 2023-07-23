@@ -13,7 +13,11 @@ body{
 
 /**paddings***/
 .paddings{
-  font-size: 30rem;
+  @apply lg:px-20 py-6 px-5;
 }
 
 /***Home****/
+.projects-grid {
+  @apply grid xl:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-10 mt-10 w-full;
+}
+
